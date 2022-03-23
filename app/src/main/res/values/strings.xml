@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fintech_2lab</string>
+    <string name="NoText">Text is empty</string>
+    <string-array name="counting_options">
+        <item>words</item>
+        <item>chars</item>
+        <item>words and space</item>
+    </string-array>
+</resources>
