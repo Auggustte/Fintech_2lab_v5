@@ -1,7 +1,14 @@
 package com.example.fintech_2lab;
 
+import java.util.Objects;
+
 public class counter {
+
     public static int getWordsCount(String input){
+        input = input.trim();if(Objects.equals(input, ""))
+        {
+            return 0;
+        }
         String[] parts = counter.SplitString(input);
         return parts.length;
     }
